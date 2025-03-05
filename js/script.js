@@ -69,7 +69,7 @@ new VenoBox({
 
 // mix it up 
 
-var containerEl = document.querySelector('.container');
+var containerEl = document.querySelector('.filter_mix_up');
 
             var mixer = mixitup(containerEl, {
                 multifilter: {

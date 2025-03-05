@@ -15,6 +15,7 @@
 /* ==============  */
 
 #mix_filterer{
-    padding: 150px;
+    height: 1300px;
+    padding: 150px 0;
     background: chocolate;
 }
