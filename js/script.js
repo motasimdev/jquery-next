@@ -4,6 +4,9 @@
 // });
 // // counter 
 // ===================================
+
+// lightbox 
+
 (function () {
     const second = 1000,
           minute = second * 60,
@@ -47,3 +50,13 @@
           //seconds
         }, 0)
     }());
+
+// ===========================================================
+
+new VenoBox({
+    selector: '.my-image-links',
+    numeration: true,
+    infinigall: true,
+    share: true,
+    spinner: 'rotating-plane'
+});
