@@ -60,3 +60,22 @@ new VenoBox({
     share: true,
     spinner: 'rotating-plane'
 });
+
+new VenoBox({
+    selector: '.my-video-links',
+});
+
+// ============================== 
+
+// mix it up 
+
+var containerEl = document.querySelector('.container');
+
+            var mixer = mixitup(containerEl, {
+                multifilter: {
+                    enable: true
+                },
+                animation: {
+                    effects: 'fade translateZ(-100px)'
+                }
+            });
