@@ -15,7 +15,14 @@
 /* ==============  */
 
 #mix_filterer{
-    height: 1300px;
+    height: 1400px;
     padding: 150px 0;
     background: chocolate;
+}
+/* =============  */
+
+#typed{
+    height: 1400px;
+    padding: 150px 0;
+    background: purple;
 }
