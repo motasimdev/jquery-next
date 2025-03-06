@@ -21,6 +21,8 @@
 }
 /* =============  */
 
+/* typed js  */
+
 #typed{
     padding: 150px 0;
     background: purple;
@@ -115,5 +117,14 @@ a .btn {
 
 /* slick slider  */
 #slick_slider{
-
+}
+.slider{
+    padding: 250px 0;
+    background: rgb(12, 211, 218);
+}
+.one{
+    background: rgb(12, 218, 57);
+}
+.two{
+    background: rgb(14, 88, 30);
 }
