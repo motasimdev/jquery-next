@@ -118,13 +118,25 @@ a .btn {
 /* slick slider  */
 #slick_slider{
 }
+.overly{
+    padding: 300px;
+    background: rgba(0, 0, 0, 0.6);
+}
 .slider{
-    padding: 250px 0;
-    background: rgb(12, 211, 218);
+    background: url(../images/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .one{
-    background: rgb(12, 218, 57);
+    background: url(../images/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .two{
-    background: rgb(14, 88, 30);
+    background: url(../images/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
