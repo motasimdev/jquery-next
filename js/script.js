@@ -127,6 +127,6 @@ $('.sliders').slick({
   autoplay: false,
   autoplaySpeed: 1000,
   arrows: true,
-  prevArrow: '<i class="fa-solid fa-caret-right"></i>',
-  nextArrow: ' <i class="fa-solid fa-caret-left"></i>'
+  prevArrow: '<i class="fa-solid fa-caret-left prev"></i>',
+  nextArrow: '<i class="fa-solid fa-caret-right next"></i>',
 });
