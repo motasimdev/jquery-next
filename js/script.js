@@ -124,7 +124,7 @@ $(function(){
 $('.sliders').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 1000,
   arrows: true,
   prevArrow: '<i class="fa-solid fa-caret-left prev"></i>',
