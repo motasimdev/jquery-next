@@ -85,11 +85,11 @@ var containerEl = document.querySelector('.filter_mix_up');
 // typed 
 $(function(){
 	$(".typed").typed({
-		strings: ["Developers.", "Designers.", "People."],
+		strings: ["MERN2407.", "Developers.", "Designers."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
-		typeSpeed: 30,
+		typeSpeed: 100,
 		// time before typing starts
 		startDelay: 1200,
 		// backspacing speed
@@ -99,9 +99,9 @@ $(function(){
 		// loop
 		loop: true,
 		// false = infinite
-		loopCount: 5,
+		loopCount: 0,
 		// show cursor
-		showCursor: false,
+		showCursor: true,
 		// character for cursor
 		cursorChar: "|",
 		// attribute to type (null == text)
@@ -118,3 +118,5 @@ $(function(){
 		resetCallback: function() {}
 	});
 });
+// ============================================
+
