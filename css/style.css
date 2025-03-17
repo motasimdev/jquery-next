@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+ul,li{
+  list-style-type: none;
+}
 #portfolio{
     padding: 150px 0;
     background: teal;
@@ -14,6 +17,7 @@
 }
 /* ==============  */
 
+/* mix it up  */
 #mix_filterer{
     height: 1400px;
     padding: 150px 0;
@@ -23,7 +27,7 @@
 
 /* typed js  */
 
-#typed{
+#typed_js{
     padding: 150px 0;
     background: purple;
 }
@@ -117,6 +121,7 @@ a .btn {
 
 /* slick slider  */
 #slick_slider{
+  padding: 50px 0;
 }
 .overly{
     padding: 300px;

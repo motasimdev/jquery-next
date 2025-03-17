@@ -69,16 +69,16 @@ new VenoBox({
 
 // mix it up 
 
-var containerEl = document.querySelector('.filter_mix_up');
+// var containerEl = document.querySelector('.filter_mix_up');
 
-            var mixer = mixitup(containerEl, {
-                multifilter: {
-                    enable: true
-                },
-                animation: {
-                    effects: 'fade translateZ(-100px)'
-                }
-            });
+//             var mixer = mixitup(containerEl, {
+//                 multifilter: {
+//                     enable: true
+//                 },
+//                 animation: {
+//                     effects: 'fade translateZ(-100px)'
+//                 }
+//             });
             
 // =======================================
 
@@ -121,12 +121,32 @@ $(function(){
 // ============================================
 
 // slick slider
-$('.sliders').slick({
-  slidesToShow: 1,
+// $('.slider').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 1000,
+//   arrows: true,
+//   prevArrow: '<i class="fa-solid fa-caret-left prev"></i>',
+//   nextArrow: '<i class="fa-solid fa-caret-right next"></i>',
+// });
+
+$('.service_slide').slick({
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 1000,
-  arrows: true,
-  prevArrow: '<i class="fa-solid fa-caret-left prev"></i>',
-  nextArrow: '<i class="fa-solid fa-caret-right next"></i>',
+  arrows: false,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
+      }
+    },
+  ]
 });
