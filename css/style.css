@@ -236,11 +236,21 @@ a .btn {
   box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.34);
 }
 
+.slick-dots{
+  text-align: center;
+}
 .slick-dots li{
   display: inline-block;
 }
 .slick-dots li button{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 50px;
+  background: gray;
   font-size: 0;
+  border: none;
+  border-radius: 50%;
 }
 /* Service Show Part End */
 
