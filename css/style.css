@@ -235,10 +235,17 @@ a .btn {
   -moz-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.34);
   box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.34);
 }
+
+.slick-dots li{
+  display: inline-block;
+}
+.slick-dots li button{
+  font-size: 0;
+}
 /* Service Show Part End */
 
 /* back to top  */
-.back_to_top {
+.back-to-top {
   position: fixed;
   right: 30px;
   bottom: 30px;
