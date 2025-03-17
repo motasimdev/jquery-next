@@ -266,10 +266,10 @@ a .btn {
 /* particle js  */
 .count-particles{
   background: #000022;
-  position: absolute;
+  /* position: absolute;
   top: 48px;
   left: 0;
-  width: 80px;
+  width: 80px; */
   color: #13E8E9;
   font-size: .8em;
   text-align: left;
